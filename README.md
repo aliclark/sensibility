@@ -1,7 +1,7 @@
 # sensibility
 Performs a census of a cluster’s nodes, scores the cluster out of 100 for diverseness
 
-This asks cluster nodes to self-report aspects of their software and hardware configuration, such as:
+This asks cluster nodes to self-report aspects of their software, hardware, network and commercial configuration, such as:
 
 ## type
 * Processor maker
@@ -11,10 +11,13 @@ This asks cluster nodes to self-report aspects of their software and hardware co
 * OS type
 * Kernel version
 * OS version
+* Self-reported hosting provider
+* AS-topology
 
 ## capacity
 * RAM capacity
 * Disk capacity
+* Bandwidth capacity
 
 ## reliability
 * Is the RAM ECC?
