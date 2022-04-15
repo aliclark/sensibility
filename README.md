@@ -38,3 +38,11 @@ Security is generally preferable to keep up-to-date as possible since there may 
 Caveat, it is best to stagger patching times a little.
 
 The polling software should run and query at very different t8mes on each node to limit the possibility of causing failure across multiple nodes at the same time.
+
+### Alternatively
+
+An alternative approach is to make a tool whereby you give it the available options, and it will suggest a maximally different configuration.
+
+### Attack surface
+
+One concern is that the attack surface for a distributed system will be the union of the attack surface of the nodes. This gives the attacker 3 different configurations to find an vulnerability, not just one.
