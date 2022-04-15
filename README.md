@@ -46,3 +46,5 @@ An alternative approach is to make a tool whereby you give it the available opti
 ### Attack surface
 
 One concern is that the attack surface for a distributed system will be the union of the attack surface of the nodes. This gives the attacker 3 different configurations to find an vulnerability, not just one.
+
+So there is some trade-off between diversity for resiliennce, and security by minimising the attack surface.
